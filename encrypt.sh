@@ -5,6 +5,7 @@
 # USE WITH CAUTION!
 # --------------------------------------------------------------------------------------
 
+echo ""
 echo "--------------------------------------------------------"
 echo "| AWS Secrets Manager Asymmetric Key Encryption        |"
 echo "| WARNING: Overwrites existing plain text secrets!     |"
@@ -51,19 +52,11 @@ if [[ -z "${aws_region}" ]] || [[ -z "${pem_cert_secret_name}" ]]; then
     print_usage
 fi
 
+echo ""
 echo "Configuration:"
 echo "  AWS Region             : ${aws_region}"
 echo "  PEM Cert Secret Name   : ${pem_cert_secret_name}"
 echo ""
-echo "WARNING: This script will overwrite plain text secrets listed in secrets.json"
-echo "         within the AWS region '${aws_region}'."
-read -p "Do you want to continue? (y/N): " confirm
-if [[ ! "$confirm" =~ ^[Yy]$ ]]; then
-    echo "Operation cancelled by user."
-    exit 0
-fi
-echo ""
-
 
 # --- Set paths ---
 readonly SCRIPT_DIR=$(dirname "$0")
