@@ -11,7 +11,7 @@
 * --------------------------------------------------------------------------------------
 */
 
-package org.wso2.asgardio.exception;
+package org.wso2.asgardeo.exception;
 
 /**
  * This Java Class defines a custom Java {@link Exception} used to wrap an actual exception with a custom message.

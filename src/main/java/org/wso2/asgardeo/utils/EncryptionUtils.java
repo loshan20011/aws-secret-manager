@@ -11,15 +11,15 @@
 * --------------------------------------------------------------------------------------
 */
 
-package org.wso2.asgardio.utils;
+package org.wso2.asgardeo.utils;
 
 import com.google.gson.Gson;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.wso2.asgardio.exception.EncryptionException;
-import org.wso2.asgardio.model.InputSecrets;
-import org.wso2.asgardio.model.Secret;
+import org.wso2.asgardeo.exception.EncryptionException;
+import org.wso2.asgardeo.model.InputSecrets;
+import org.wso2.asgardeo.model.Secret;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;

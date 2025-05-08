@@ -83,7 +83,7 @@ The primary goal of this tool is to enhance the security of sensitive informatio
 │       ├── java
 │       │   └── org
 │       │       └── wso2
-│       │           └── asgardio
+│       │           └── asgardeo
 │       │               ├── encrypt
 │       │               │   └── PasswordEncryptor.java
 │       │               ├── exception
@@ -106,7 +106,7 @@ The primary goal of this tool is to enhance the security of sensitive informatio
     │   ├── log4j.properties
     │   ├── org
     │   │   └── wso2
-    │   │       └── asgardio
+    │   │       └── asgardeo
     │   │           ├── encrypt
     │   │           │   └── PasswordEncryptor.class
     │   │           ├── exception

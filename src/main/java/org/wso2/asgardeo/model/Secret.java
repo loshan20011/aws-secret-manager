@@ -11,7 +11,7 @@
 * --------------------------------------------------------------------------------------
 */
 
-package org.wso2.asgardio.model;
+package org.wso2.asgardeo.model;
 
 /**
  * This Java Class represents a secret instance.

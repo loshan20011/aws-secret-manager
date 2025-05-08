@@ -105,8 +105,8 @@ fi
 log_info "Executing Encryption Manager JAR..."
 
 if ! "${JAVA_CMD}" \
-    -Dorg.wso2.asgardio.aws.region="${aws_region}" \
-    -Dorg.wso2.asgardio.aws.pem.cert.secret.name="${pem_cert_secret_name}" \
+    -Dorg.wso2.asgardeo.aws.region="${aws_region}" \
+    -Dorg.wso2.asgardeo.aws.pem.cert.secret.name="${pem_cert_secret_name}" \
     -jar "${JAR_FILE}"
 then
     log_error "Failed to execute the encryption manager JAR."

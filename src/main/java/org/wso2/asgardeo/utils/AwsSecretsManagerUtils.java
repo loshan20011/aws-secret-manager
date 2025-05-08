@@ -11,13 +11,13 @@
 * --------------------------------------------------------------------------------------
 */
 
-package org.wso2.asgardio.utils;
+package org.wso2.asgardeo.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.wso2.asgardio.exception.EncryptionException;
-import org.wso2.asgardio.model.InputSecrets;
-import org.wso2.asgardio.model.Secret;
+import org.wso2.asgardeo.exception.EncryptionException;
+import org.wso2.asgardeo.model.InputSecrets;
+import org.wso2.asgardeo.model.Secret;
 import software.amazon.awssdk.core.SdkBytes;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.secretsmanager.SecretsManagerClient;

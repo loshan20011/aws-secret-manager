@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Copyright (c) 2025, WSO2 LLC. (http://www.wso2.com).
+
+    This software is the property of WSO2 LLC. and its suppliers, if any.
+    Dissemination of any information or reproduction of any material contained
+    herein in any form is strictly forbidden, unless permitted by WSO2 expressly.
+    You may not alter or remove any copyright or other notice from copies of this content.
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.wso2.asgardio</groupId>
+    <groupId>org.wso2.asgardeo</groupId>
     <artifactId>aws-encryption-manager</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -88,7 +96,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>org.wso2.asgardio.encrypt.PasswordEncryptor</mainClass>
+                            <mainClass>org.wso2.asgardeo.encrypt.PasswordEncryptor</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

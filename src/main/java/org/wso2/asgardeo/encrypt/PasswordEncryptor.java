@@ -11,20 +11,20 @@
 * --------------------------------------------------------------------------------------
 */
 
-package org.wso2.asgardio.encrypt;
+package org.wso2.asgardeo.encrypt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.wso2.asgardio.exception.EncryptionException;
-import org.wso2.asgardio.model.InputSecrets;
-import org.wso2.asgardio.model.Secret;
-import org.wso2.asgardio.utils.AwsSecretsManagerUtils;
-import org.wso2.asgardio.utils.EncryptionUtils;
+import org.wso2.asgardeo.exception.EncryptionException;
+import org.wso2.asgardeo.model.InputSecrets;
+import org.wso2.asgardeo.model.Secret;
+import org.wso2.asgardeo.utils.AwsSecretsManagerUtils;
+import org.wso2.asgardeo.utils.EncryptionUtils;
 import software.amazon.awssdk.services.secretsmanager.SecretsManagerClient;
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
-import org.wso2.asgardio.utils.Constants;
+import org.wso2.asgardeo.utils.Constants;
 
 public class PasswordEncryptor {
 
