@@ -1,8 +1,8 @@
 # AWS Secrets Manager Asymmetric Key Encryption Tool
 
-**This tool overwrites existing plain text secrets in AWS Secrets Manager with their encrypted values.**
-
 This Java application is designed to encrypt secrets stored in AWS Secrets Manager using an asymmetric encryption approach with a public certificate.
+
+**Note: This tool overwrites existing plain text secrets in AWS Secrets Manager with their encrypted values.**
 
 ## Purpose
 
@@ -72,6 +72,8 @@ The primary goal of this tool is to enhance the security of sensitive informatio
 
 ## Project Structure
 
+```plaintext
+
 .
 ├── encrypt.sh
 ├── pom.xml
@@ -127,3 +129,27 @@ The primary goal of this tool is to enhance the security of sensitive informatio
                 └── default-compile
                     ├── createdFiles.lst
                     └── inputFiles.lst
+
+```
+
+## Contributing
+
+Please follow the guidelines below:
+
+1. Fork the repository.
+
+2. Create a new branch for your changes.
+   ```bash
+   git checkout -b new-branch
+   ```
+3. Make your changes and commit them.
+   ```bash
+   git commit -m "Description of your changes"
+   ```
+
+4. Push your changes to your fork.
+   ```bash
+   git push origin new-branch
+   ```
+
+5. Open a pull request using the provided template.
